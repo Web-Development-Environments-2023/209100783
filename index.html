@@ -6,26 +6,26 @@
 <body>
   <div class="menu">
     <div class="menubar">
-      <div class="menubutton">
-        <a class="buttonA" href="#aboutme">About Me</a>
+      <div class="menubutton" onclick='scrollToElement("aboutme")'>
+        <a class="buttonA" >About Me</a>
       </div>
-      <div class="menubutton">
-        <a class="buttonA" href="#photos">My Photos</a>
+      <div class="menubutton" onclick='scrollToElement("photos")'>
+        <a class="buttonA" >My Photos</a>
       </div>    
-      <div class="menubutton">
-        <a class="buttonA" href="#music">My Playlist</a>
+      <div class="menubutton" onclick='scrollToElement("music")'>
+        <a class="buttonA">My Playlist</a>
       </div>  
-      <div class="menubutton">
-        <a class="buttonA" href="#like">Like</a>
+      <div class="menubutton" onclick='scrollToElement("like")'>
+        <a class="buttonA" >Like</a>
       </div>
-      <div class="menubutton">
-        <a class="buttonA" href="#qr">QR code</a>
+      <div class="menubutton" onclick='scrollToElement("qr")'>
+        <a class="buttonA" >QR code</a>
       </div>
-      <div class="menubutton">
-        <a class="buttonA" href="#qna">Q&A</a>
+      <div class="menubutton" onclick='scrollToElement("qna")'>
+        <a class="buttonA" >Q&A</a>
       </div>
-      <div class="menubutton">
-        <a class="buttonA" href="#mailatag">Contact Me</a>      
+      <div class="menubutton" onclick='scrollToElement("mailatag")'>
+        <a class="buttonA" >Contact Me</a>      
       </div>
     
     </div>
@@ -66,7 +66,7 @@
       </div>
       
       <div id="music">
-      <iframe width="100%" height="350px" src="https://www.youtube.com/embed/QhQcBuAUfTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="70%" height="350px" src="https://www.youtube.com/embed/QhQcBuAUfTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       
     </div>
@@ -135,7 +135,12 @@
 
   </section>
 
-
+  <script>
+    function scrollToElement(elem){
+      document.getElementById(elem).scrollIntoView();
+      window.scrollBy(0,-250);
+    }
+  </script>
 
   <script>
     function addEmoji() {
