@@ -1,7 +1,140 @@
-#menu
+div.menu
 {
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: rgb(207, 57, 57);
+	height: max-content;
+	background: rgb(8, 104, 136);
+	padding: 1%;
+	border-style: ridge;
+	border-width: 10px ;
+	border-color: black;
+	z-index: 100;
+
+}
+
+div.menubar
+{
+	float: right;
+	margin: 1% 2% 1% 1%;
+	z-index: 100;
+
+}
+ div.logo
+{
+	float: left;
+	margin: 1% 2% 1% 1%;
+} 
+
+div.menubutton
+{
+	padding: 15px 10px 15px 10px;
+	border: 1% ;
+	margin: 15px;
+	width: max-content;
+	text-align: center;
+	float: left;
+}
+
+a.buttonA
+{
+	text-decoration: none;
+	font-family: Papyrus;
+	color: blanchedalmond;
+	font-size: x-large;
+	text-shadow: 3px 3px 5px black;
+	
+	
+
+}
+a.buttonA:hover
+{
+	background-color: black;
+}
+
+
+div.container
+{
+	border-style: groove;
+	border-color: rgb(4, 21, 21);
+	border-width: 5px;
+	margin: 10px;
+	width: 100%;
+	height: 10%;
+	position: relative;
+	padding: 15px;
+	
+
+}
+/* div.container:hover
+{
+	background-color: aqua;
+} */
+section.main
+{
+	width: 100%;
+	padding: 20px;
+	position: absolute;
+	border-style: groove;
+	margin-top: 11%;
+	background-color: rgb(8, 104, 136);
+	
+}
+body
+{
+
+	background-image: url("Static/background.jpeg");
+	background-size: 20%;
+	font-size: x-large;
+	font-family: Papyrus;
+
+
+	
+}
+div#mailto
+{
+	text-align: center;
+	padding: 3px;
+
+
+}
+a#mailatag:hover
+{
+	background-color: rgb(244, 2, 192);
+	shape-rendering: crispEdges;
+}
+a#mailatag{
+	padding: 3px;
+	text-decoration: none;
+	font-size: x-large;
+	color: rgb(181, 190, 214);
+
+}
+div#codediv{
+	text-align: center;
+}
+div#images-text{
+	text-align: center;
+	padding: 10px;
+}
+div#images{
+	text-align: center;
+	padding: 10px;
+	
+}
+
+
+div#likenshare{
+	text-align: center;
+	padding-top: 15px;
+	font-size: x-large;
+	background-color: aliceblue;
+	
+}
+div.centertext{
+	text-align: center;
+	padding: 10px;
+
+}
+div.mailform{
+	text-align: center;
 }

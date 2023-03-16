@@ -4,190 +4,154 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+  <div class="menu">
+    <div class="menubar">
+      <div class="menubutton">
+        <a class="buttonA" href="#aboutme">About Me</a>
+      </div>
+      <div class="menubutton">
+        <a class="buttonA" href="#photos">My Photos</a>
+      </div>    
+      <div class="menubutton">
+        <a class="buttonA" href="#music">My Playlist</a>
+      </div>  
+      <div class="menubutton">
+        <a class="buttonA" href="#like">Like</a>
+      </div>
+      <div class="menubutton">
+        <a class="buttonA" href="#qr">QR code</a>
+      </div>
+      <div class="menubutton">
+        <a class="buttonA" href="#qna">Q&A</a>
+      </div>
+      <div class="menubutton">
+        <a class="buttonA" href="#mailatag">Contact Me</a>      
+      </div>
+    
+    </div>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+    <div class="logo">
+      <div class="menubutton">
+        <a class="buttonA">Logo</a>      
+      </div>
+    </div>
+  </div>
 
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
+  <section class="main">
+   
+
+    <div id="about"class="container">
+      <div class="centertext">
+        <a id="aboutme">About Me</a>
+      </div>
+      
+    </div>
+
+    <div class="container">
+      <div class="centertext">
+        <a id="photos">My Photos</a>
+      </div>
+      
+      <div id="images">
+        <img src="Static\babuska-1.jpg">
+        <img src="Static\babuska-2.jpg">
+      </div>
+      
+    </div>
+
+    <div class="container">
+      <div class="centertext">
+        <a>My Playlist</a>
+      </div>
+      
+      <div id="music">
+      <iframe width="100%" height="350px" src="https://www.youtube.com/embed/QhQcBuAUfTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      
+    </div>
+
+    <div class="container">
+      <div class="centertext">
+        <a id="like">Give Me a Like</a>
+      </div>
+      <div id="likenshare">
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fdankmeme.co&width=450&layout&action&size&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </div>
+      
+    </div>
+
+    <div class="container">
+      <div class="centertext">
+        <a id="qr">Scan My Code</a>
+      </div>
+      
+    </div>
+
+
+    <div class="container">
+      <div class="centertext">
+        <a id="qna">Q&A</a>
+      </div>
+      
+    </div>
+
+    
+    <div class="container">
+      <div id="mailto">
+        <a id="mailatag" href="mailto:eitan.goldstin3@gmail.com">Contact Me</a>
+      </div>
+      <div class="mailform">
+        <form action="mailto:eitan.goldstin3@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <label for="emoji">Choose an Emoji:</label>
+          <select id="emoji" name="emoji" oninput="addEmoji()">
+            <option value="🙂">🙂</option>
+            <option value="😀">😀</option>
+            <option value="😊">😊</option>
+            <option value="😎">😎</option>
+            <option value="😍">😍</option>
+            <option value="😘">😘</option>
+          </select>
+          <input type="submit" value="Send">
+        </form>
+      </div>
+      
+    </div>
+
+  </section>
+
+
+
+  <script>
+    function addEmoji() {
+      var emoji = document.getElementById("emoji").value;
+      var message = document.getElementById("message").value;
+      document.getElementById("message").value = message + emoji;
+    }
+  </script>
+  <script type="text/javascript">
+  $(function(){
+    $("#nav a").click(function(e){
+      e.preventDefault();
+      $('html,body').scrollTo(this.hash,this.hash); 
+    });
   });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+  </script>
+  <script type="text/javascript">
+  $(document).scroll(function() {
+      $('#menu').toggle($(this).scrollTop()>1000)
+  });​
+  </script>
 </body>
 </html>
