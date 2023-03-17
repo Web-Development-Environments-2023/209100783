@@ -45,6 +45,20 @@
       <div class="centertext">
         <a id="aboutme">About Me</a>
       </div>
+      <div class="abtme">
+        <p class="question">Q.1 -> Tell me about your self</p>
+        <p>I was born in a small village in the USSR. It was a very different time and place than the world you know today. Life was simpler back then, but we faced many challenges and struggles as well.</p>
+        <p>Despite the hardships, I have many memories of my childhood and the people I grew up with.</p>
+        <p>Later on we did aliyah to Israel to Beer Sheva and the rest is history</p>
+        <p class="question">Q.2 -> What is the strongest memorie you have from childhood</p>
+        <p>One of the strongest memories I have is from when I was about six years old.</p>
+        <p>At the time, my family lived in a small village, and I remember waking up very early one morning to the sound of roosters crowing and cows mooing. I got out of bed and looked out the window, and I saw the most beautiful sunrise I had ever seen.</p>
+        <p>The sky was painted with shades of pink, orange, and purple, and it looked like a work of art. I remember feeling so happy and peaceful in that moment, and it's a memory that has stayed with me all these years.</p>
+        <p class="question">Q.2 -> Tell me why you love Math so much?</p>
+        <p>I love math because it is a subject that challenges me and allows me to use my brain in new and interesting ways. Math is like a puzzle that needs to be solved, and there is a great sense of satisfaction that comes with finding the solution to a difficult problem.</p>
+        <p>Ultimately, I believe that the love of math comes from a curiosity and a desire to understand how things work, and a willingness to persevere through difficult problems in order to find the answer.</p>
+        
+      </div>
       
     </div>
 
@@ -97,6 +111,19 @@
       <div class="centertext">
         <a id="qna">Q&A</a>
       </div>
+      <div id=qnas >
+        <h1>Web 1.0, Web 2.0, and Web 3.0</h1>
+        <p>The terms "Web 1.0," "Web 2.0," and "Web 3.0" are often used to describe different eras or phases of the internet's evolution.</p>
+        <p>Web 1.0 refers to the early days of the internet when most websites were static and primarily provided information. Web 2.0 brought about a new era of interactivity between different users and WebSites , while Web 3.0 is expected to create a more intelligent and personalized web using AI .</p>
+        <br>
+        <p style="text-align: left;text-decoration: overline;">USE CASE</p>
+        <br>
+        <p>A construction worker is searching in Web1 for the words "CAT manual".</p>
+        <p>However, the Web1 search returns results related to pictures of cats (the animal) and websites about how to take care of cats.</p>
+        <p>when the construction worker searches for "CAT manual" in Web2 There will be a Search Engine as Google search Engine that might show him both results of cats (the animal) and some pages of the CAT brand </p>
+        <p>when the construction worker searches for "CAT manual" in Web3, the search engine is powered by intelligent AI that understands the context and recognizes that the worker is looking for the manual related to the CAT brand, which is heavily used in the construction industry.</p>
+        <p>Web3 is able to provide the construction worker with the relevant manual that they need for the CAT product.</p>
+      </div>
       
     </div>
 
@@ -119,9 +146,9 @@
           <label for="message">Message:</label>
           <textarea id="message" name="message" required></textarea>
           <label for="emoji">Choose an Emoji:</label>
-          <select id="emoji" name="emoji" oninput="addEmoji()">
-            <option value="🙂">🙂</option>
-            <option value="😀">😀</option>
+          <select id="emoji" name="emoji" onclick="addEmoji()">
+            <option value="🍆">🍆</option>
+            <option value="🍑">🍑</option>
             <option value="😊">😊</option>
             <option value="😎">😎</option>
             <option value="😍">😍</option>
@@ -134,7 +161,9 @@
     </div>
 
   </section>
-
+  <section class="footer">
+    <div class="footer-nav"><a></a></div>
+  </section>
   <script>
     function scrollToElement(elem){
       document.getElementById(elem).scrollIntoView();

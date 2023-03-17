@@ -1,7 +1,7 @@
 div.menu
 {
 	position: fixed;
-	width: 100%;
+	width: 95%;
 	height: max-content;
 	background: rgb(8, 104, 136);
 	padding: 1%;
@@ -49,6 +49,7 @@ a.buttonA
 a.buttonA:hover
 {
 	background-color: black;
+	border-radius:  5px;
 }
 
 
@@ -58,7 +59,7 @@ div.container
 	border-color: rgb(4, 21, 21);
 	border-width: 5px;
 	margin: 10px;
-	width: 100%;
+	width: 95%;
 	height: 10%;
 	position: relative;
 	padding: 15px;
@@ -71,7 +72,8 @@ div.container
 } */
 section.main
 {
-	width: 100%;
+	width: 95%;
+	text-align: center;
 	padding: 10px;
 	position: absolute;
 	border-style: groove;
@@ -101,6 +103,7 @@ a#mailatag:hover
 {
 	background-color: rgb(244, 2, 192);
 	shape-rendering: crispEdges;
+	border-radius: 5px;
 }
 a#mailatag{
 	padding: 3px;
@@ -141,5 +144,36 @@ div.mailform{
 	text-align: center;
 }
 div.qr-img{
+	text-align: center;
+}
+div.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 20%;
+	background-color: transparent;
+	color: white;
+	text-align: center;
+	
+}
+div.footer-nav{
+	/* height: 100%; */
+}
+div#qnas{
+	background-color: #f2f2f2;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	font-family: Papyrus;
+
+	
+}
+p.question{
+	background-color: #ddd;
+	border-radius: 10px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	width: 100%;
 	text-align: center;
 }
