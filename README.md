@@ -10,4 +10,5 @@ Welcome to this website dedicated to my grandmother, who immigrated from the USS
 ## ID
     209100783
 ## Link
-    [this is the website link](https://web-development-environments-2023.github.io/209100783/)
+    https://web-development-environments-2023.github.io/209100783/
+    [Click here to visit my website](https://www.example.com)
