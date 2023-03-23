@@ -1,16 +1,11 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [ID](#ID)
 - [Link](#Link)
 
 ## introduction
-this site is about my grandmother who came from USSR to Isreal, She has A secaund degree in Physics and 
-I made this website about her because she helped my mom to grow me and most of my childhood I was with her and I love he very much 
+Welcome to this website dedicated to my grandmother, who immigrated from the USSR to Beer Sheva, Israel. She is an accomplished physicist, holding a second degree in the field. As one of her three grandsons, I wanted to create this website to honor her and the impact she has had on my life. Growing up, my grandmother played a vital role in raising me, and I have many fond memories of spending time with her. I hope that this website can serve as a tribute to her life and legacy.
 
 ## ID
     209100783
